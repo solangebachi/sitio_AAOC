@@ -1,0 +1,82 @@
+.border{
+    border: solid red 2px;
+}
+
+
+/* ##################### COLORS VAR ######################### */
+:root{
+    --blue:  #0157a0;
+    --yelow:  #F5C10D;
+    --skyBlue: #0080FF;
+    --gray: #5D677F;
+    --white: #FFFFFF;
+}
+
+/* ##################### COLORS FONTS ######################### */
+.blue{
+    color: #0157a0;
+}
+.yelow{
+    color: #F6C10D;
+}
+.skyBlue{
+    color: #0080FF;
+}
+.gray{
+    color: #5D677F;
+}
+.white{
+    color: #FFFFFF;
+}
+.transparent{
+    color: transparent;
+}
+/* ##################### COLOR BACKGROUNS ######################### */
+
+.bg-blue{
+    background-color: #0157a0;
+}
+.bg-yelow{
+    background-color: #F6C10D;
+}
+.bg-skyBlue{
+    background-color: #0080FF;
+}
+.bg-gray{
+    background-color: #5D677F;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.bg-transparent{
+    background-color: transparent;
+}
+/* .section {
+    padding: 3rem 2rem;
+} */
+.titleProp{
+    line-height: 4.5rem;
+}
+.title-border-white {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 2px #FFFFFF;
+    color: transparent; 
+  }
+  .title-border-blue {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 2px #0157a0;
+    color: transparent; 
+  }
+
+  .title-bold-white {
+    font-family: 'Poppins', sans-serif;
+    color:  #FFFFFF;
+    font-weight: 800; 
+  }
+  .title-bold-blue {
+    font-family: 'Poppins', sans-serif;
+    color: #0157a0;
+    font-weight: 800;
+  }

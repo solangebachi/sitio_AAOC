@@ -1,0 +1,152 @@
+#register {
+    background-image: url('../img/registro/bg_register_pc.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    border-radius: 0;
+    
+}
+#porfile {
+    background-image: url('../img/perfil/bg_porfile_desktop.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    border-radius: 0;
+    
+}
+#register section .titleProp, #porfile section .titleProp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+
+}
+#register section .titleProp img, #porfile section .titleProp img {
+    margin-top: 2rem;
+}
+#register section form, #porfile section form {
+    font-family: NotoSans;
+    padding: 3rem;
+
+}
+#register section form .input,#porfile section form .input {
+    border-radius: 0;
+    color: var(--gray);
+
+}
+#register section form ::placeholder,#porfile section form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--gray);
+    font-family: NotoSans;
+    font-family: NotoSans;
+    opacity: 1; /* Firefox */
+}
+ 
+#register section form :-moz-placeholder,#porfile section form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: var(--gray);
+    font-family: NotoSans;
+    opacity: 1;
+}
+ 
+#register section form :-ms-input-placeholder,#porfile section form :-ms-input-placeholder  { /* Internet Explorer 10-11 */
+    color: var(--gray);
+    font-family: NotoSans;
+}
+ 
+#register section form ::-ms-input-placeholder,#porfile section form ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--gray);
+    font-family: NotoSans;
+}
+
+#register section form  .fot-register,#porfile section form  .fot-register{
+    padding-top: 5rem;
+    margin-top: 2rem;
+    
+}
+#register section form .radio input,#porfile section form .radio input {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#register section form button,#porfile section form button{
+    border-radius: 0;
+    border: none;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+    background: rgb(2,88,160);
+background: linear-gradient(90deg, rgba(2,88,160,1) 0%, rgba(0,144,255,1) 55%);
+    color: #ffffff;
+}
+
+
+@media (max-width:768px) {
+    #register{
+        background-image: url('../img/registro/bg_register_mobile.png');
+        background-position: top;
+        padding-top: 9rem;
+    }
+    #porfile{
+        background-image: url('../img/perfil/bg_porfile_mobile_1.png');
+        background-position: top;
+        padding-top: 10rem;
+    }
+    #register .section,#porfile .section {
+        padding:1rem 2.5rem;
+        padding-bottom: 0;
+    }
+    #register section .titleProp,#porfile section .titleProp {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+    
+    
+    }
+    #register section .titleProp img,#porfile section .titleProp img {
+        margin-top: 1rem;
+        width: 25px;
+    
+    }
+    #register section form, #porfile section form {
+        padding: 2rem 5rem;
+        padding-top: 4rem;
+    
+    }
+   
+    #register section form .input,.control.has-icons-right .icon,#porfile section form .input,.control.has-icons-right .icon  {
+        height: 2rem;
+    
+    }
+    #register section form button,#porfile section form button{
+        margin-top: 1rem;
+        
+    }
+    #register section form .fot-register,#porfile section form .fot-register {
+        padding-bottom: 7rem;
+        margin-top: 2rem;
+    }
+    #porfile section form .fot-register {
+        padding-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    
+}
+@media (max-width:550px) {
+    #register .section,#porfile .section  {
+        padding: 1rem;
+    }
+    #register section form, #porfile section form {
+        padding:1rem;
+        padding-top: 4rem;
+    
+    }
+    #register section form .help,#porfile section form .help{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+    #register section form .fot-register,#porfile section form .fot-register {
+        padding-bottom: 6rem;
+        margin-top: 6rem;
+    }
+}

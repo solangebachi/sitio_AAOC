@@ -1,0 +1,275 @@
+#home {
+    background-image: url('../img/home/bg_section_1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #home #sectionPrimary {
+    height: 100vh;
+} */
+#home #sectionPrimary .titleProp {
+    font-size: 4.6rem;
+
+}
+
+#home #sectionPrimary .column p {
+    padding-right: 15.5rem;
+
+}
+
+#home #sectionPrimary #btn-more .button, #home #btnPost .button {
+    border-radius: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 5rem;
+}
+
+#home #sectionSecondary .titleProp {
+    font-size: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    background-color: var(--white);
+    top: -100px;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    border-radius: 0;
+}
+
+#home #sectionSecondary .titleProp .text {
+    padding-left: 5rem;
+}
+
+#home #sectionSecondary .titleProp .text img {
+    width: 100px;
+    margin-bottom: 11px;
+    margin-left: 1rem
+}
+
+#home #sectionSecondary .btn-title {
+    background-color: var(--gray);
+    padding: 2.5rem 3.3rem;
+}
+
+#home #sectionSecondary .btn-title img {
+    width: 30px;
+    height: 100%;
+
+}
+
+#home #containerPosts {
+    font-family: NotoSans;
+}
+
+#home #containerPosts h3 {
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 1rem;
+
+}
+
+#home #btnPost {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#home #btnPost .date .button {
+    padding: 1rem;
+    padding-left: 0;
+    margin-right: 2rem;
+    background-color: transparent;
+    border: none !important;
+    color: var(--yelow) !important;
+    margin-top: 2rem;
+
+}
+
+#home #btnPost .button {
+    margin-top: 2rem;
+
+}
+
+#home #btnPost .date i, #home #listPost .date i{
+    margin-right: 8px;
+    font-size: 1.3rem;
+}
+
+#home #listPost h4 {
+    font-weight: 600;
+    color: var(blue);
+    margin-bottom: 0.80rem;
+}
+#home #listPost .date .button {
+    padding: 1rem;
+    padding-left: 0;
+    margin-right: 2rem;
+    background-color: transparent;
+    border: none !important;
+    font-weight: 300;
+
+}
+hr{
+    height: 1px;
+}
+/* hasta pantallas grandes */
+
+@media (min-width:1024px) {
+    #home #sectionPrimary .titleProp {
+        padding: 1rem;
+    }
+
+
+    #home #sectionPrimary .titleProp img {
+        padding-left: 2rem;
+        width: 150px;
+    }
+}
+
+
+/*   Tablet y Laptop*/
+
+@media (max-width:1024px) {
+
+    #home #sectionPrimary .titleProp {
+        font-size: 2.6rem;
+        line-height: 2.5rem;
+    }
+
+    #home #sectionPrimary .column p {
+        padding-right: 4rem;
+        font-size: 0.80rem;
+    }
+
+    #home #sectionSecondary .titleProp {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    #home #sectionSecondary .btn-title {
+        padding: 2rem;
+    }
+
+    #home #sectionSecondary .btn-title img {
+        width: 60px;
+    }
+
+    #home #btnPost .date {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #home #btnPost .date .button {
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+
+
+/* Mobile */
+
+@media (max-width:576px) {
+    #home {
+        padding-top: 7rem;
+    }
+
+    #home .section {
+        padding: 3rem 1rem;
+    }
+
+    #home #sectionPrimary {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    #home #sectionPrimary .titleProp {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #home #sectionPrimary .column p {
+        padding-right: 1rem;
+        font-size: 0.70rem;
+    }
+
+    #home #sectionPrimary #btn-more .button {
+        border-radius: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    #home #sectionSecondary .titleProp {
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0;
+        padding: 0;
+        line-height: 2rem;
+        top: -20px;
+
+    }
+
+    #home #sectionSecondary .titleProp span {
+        padding-left: 0;
+    }
+
+    .btn-title {
+        background-color: var(--gray);
+        height: auto;
+        padding: 1rem;
+    }
+
+    .btn-title img {
+        width: 30px;
+    }
+
+    #home #sectionSecondary .titleProp .text {
+        padding-left: 1rem;
+    }
+
+    #home #sectionSecondary .titleProp .text img {
+        width: 46px;
+        margin-bottom: 4px;
+    }
+
+    #home #sectionSecondary .btn-title {
+        padding: 1rem;
+    }
+
+    #home #sectionSecondary .btn-title img {
+        width: 20px;
+    }
+
+    #home #btnPost {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    
+    .section {
+        padding:1rem 2.5rem;
+        padding-bottom: 0;
+    }
+    
+}
+@media (max-width:550px) {
+    .section {
+        padding: 1rem;
+    }
+}

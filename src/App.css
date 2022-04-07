@@ -1,0 +1,13 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "https://pro.fontawesome.com/releases/v5.10.0/css/all.css";
+@import "/src/assets/css/helpers.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('/src/assets/font/NotoSans-Regular.ttf');
+}
+
+

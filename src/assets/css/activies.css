@@ -1,0 +1,211 @@
+#activies {
+    background-image: url('../img/actividades/bg_actividades.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    font-family: 'Poppins', sans-serif;
+}
+#activies #sectionPrimary {
+    padding: 1rem;
+    padding-bottom: 3rem;
+    
+}
+
+#activies #sectionPrimary .titleProp {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    line-height: 2.8rem;
+
+
+}
+
+#activies #sectionPrimary .is-6{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    
+
+    
+}
+
+#activies #sectionPrimary #btn-more .button, #activies #btnPost .button {
+    border-radius: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 5rem;
+}
+
+#activies #sectionPrimary img {
+    width: 40px;
+    margin-left: 1rem;
+} 
+
+
+#activies #sectionSecondary {
+    background-color: var(--white);
+}
+#activies #sectionSecondary .titleProp {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+#activies #sectionSecondary .titleProp img {
+    width: 50px;
+    margin-bottom: 11px;
+    margin-left: 1rem
+}
+
+
+
+#activies #sectionSecondary article .cont{
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+    border-radius: 0; 
+    margin: 1rem;
+    
+
+}
+#activies #sectionSecondary article h4{
+    display: flex;
+    justify-content: space-between;
+   font-weight: 600;
+   padding-top: 1.5rem;
+
+}
+#activies #sectionSecondary  .date .button{
+    background-color: transparent;
+    margin-right: 2rem; 
+    border: none !important;
+}
+
+#activies #sectionSecondary .button {
+    border-radius: 0 !important;
+    font-weight: 300;
+
+}
+
+
+#activies #sectionSecondary .date i{
+    margin-right: 8px;
+    font-size: 1.3rem;
+}
+
+#activies #sectionSecondary h4 {
+    font-weight: 600;
+    color: var(blue);
+    margin-bottom: 0.50rem;
+}
+#activies #sectionSecondary .date .button {
+    padding: 1rem;
+    padding-left: 0;
+    margin-right: 2rem;
+    background-color: transparent;
+    border: none !important;
+    font-weight: 300;
+
+}
+hr{
+    height: 1px;
+}
+
+
+/*   Tablet y Laptop*/
+
+@media (max-width:1024px) {
+    
+    #activies {
+        padding-top: 8rem;
+        
+     
+    }
+
+    #activies #sectionPrimary .is-6{  
+        padding-top: 1rem ;
+        padding-left: 2rem;
+        
+    }
+    #activies #sectionPrimary .titleProp {
+        font-size: 2rem;
+        margin-bottom: 0.50rem;
+        margin-top: 2rem;
+        line-height: 2rem;
+    
+    
+    }
+    #activies #sectionPrimary img {
+        width: 30px;
+        margin-left: 1rem;
+    }
+
+
+}
+
+
+/* Mobile */
+
+@media (max-width:576px) {
+    
+
+    #activies #sectionPrimary {
+        padding: 1rem;
+        
+
+    }
+
+   
+
+    #home #sectionSecondary .titleProp span {
+        padding-left: 0;
+    }
+
+    .btn-title {
+        background-color: var(--gray);
+        height: auto;
+        padding: 1rem;
+    }
+
+ 
+}
+
+@media (max-width:768px) {
+    
+    .section {
+        padding:1rem 2.5rem;
+        padding-bottom: 0;
+    }
+    
+}
+@media (max-width:550px) {
+    .section {
+        padding: 1rem;
+    }
+    #activies{
+        position: bottom;
+    }
+    #activies #sectionPrimary .columns{
+        flex-direction: column;
+    
+    }
+    #activies #sectionPrimary .is-6 {
+        padding: 8rem 1rem;
+        padding-bottom: 0;
+    }
+    #activies #sectionPrimary .titleProp {
+        margin-top: 1rem;
+    }
+    #activies #sectionSecondary .is-grouped {
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    }
+    #activies #sectionSecondary .button {
+        margin-bottom: 20px;
+        
+    
+    }
+}
