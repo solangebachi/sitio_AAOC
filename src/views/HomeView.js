@@ -64,7 +64,7 @@ export default function HomeView() {
 
                     <div id='containerPosts' className="columns">
                         <div className="column is-6">
-                            <p className='blue subtitle is-6'>Actividad destacada</p>
+                            <p className='blue subtitle is-4'>Actividad destacada</p>
                             <figure className='image is-2by1'>
                                 <img src={postDestacado} alt="" />
                             </figure>
@@ -88,7 +88,7 @@ export default function HomeView() {
                             </div>
                         </div>
                         <div id='listPost' className="column is-6">
-                            <p className='blue subtitle is-6'>Próximas actividades</p>
+                            <p className='blue subtitle is-4'>Próximas actividades</p>
 
                             <div className="columns is-multiline is-gapless">
                                 {/* Column Dinamic */}

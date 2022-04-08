@@ -34,9 +34,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    position: relative;
+    margin-top: 12rem;
+    margin-bottom: 80px;
     background-color: var(--white);
-    top: -100px;
     box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
@@ -122,7 +122,7 @@ hr{
 /* hasta pantallas grandes */
 
 @media (min-width:1024px) {
-    #home #sectionPrimary .titleProp {
+   /*  #home #sectionPrimary .titleProp {
         padding: 1rem;
     }
 
@@ -130,17 +130,18 @@ hr{
     #home #sectionPrimary .titleProp img {
         padding-left: 2rem;
         width: 150px;
-    }
+    } */
 }
 
 
 /*   Tablet y Laptop*/
 
-@media (max-width:1024px) {
+@media (max-width:1025px) {
 
     #home #sectionPrimary .titleProp {
         font-size: 2.6rem;
         line-height: 2.5rem;
+        margin-bottom: 20px;
     }
 
     #home #sectionPrimary .column p {
