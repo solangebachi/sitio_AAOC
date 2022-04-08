@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../assets/css/certificates.css"
+import "../assets/css/certificatesAndActivies.css"
 import Navbar from '../components/Navbar'
 import lineBlue from '../assets/img/home/bg_line-100.jpg'
 

@@ -6,13 +6,21 @@
     padding-top: 8rem;
     font-family: 'Poppins', sans-serif;
 }
-#certificates #sectionPrimary {
+#activies {
+    background-image: url('../img/actividades/bg_actividades.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    font-family: 'Poppins', sans-serif;
+}
+#certificates #sectionPrimary,#activies #sectionPrimary {
     padding: 1rem;
     padding-bottom: 3rem;
     
 }
 
-#certificates #sectionPrimary .titleProp {
+#certificates #sectionPrimary .titleProp,#activies #sectionPrimary .titleProp,#activies #sectionPrimary #btn-more .button, #activies #btnPost .button {
     font-size: 3rem;
     margin-bottom: 3rem;
     margin-top: 8rem;
@@ -21,7 +29,7 @@
 
 }
 
-#certificates #sectionPrimary .is-6{
+#certificates #sectionPrimary .is-6,#activies #sectionPrimary .is-6{
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
@@ -37,30 +45,28 @@
     margin-top: 5rem;
 }
 
-#certificates #sectionPrimary img {
+#certificates #sectionPrimary img,#activies #sectionPrimary img{
     width: 40px;
     margin-left: 1rem;
 } 
 
 
-#certificates #sectionSecondary {
+#certificates #sectionSecondary,#activies #sectionSecondary  {
     background-color: var(--white);
 }
-#certificates #sectionSecondary .titleProp {
+#certificates #sectionSecondary .titleProp,#activies #sectionSecondary .titleProp {
     font-size: 2rem;
     line-height: 2.5rem;
     padding-bottom: 2rem;
 }
 
-#certificates #sectionSecondary .titleProp img {
+#certificates #sectionSecondary .titleProp img, #activies #sectionSecondary .titleProp img {
     width: 50px;
     margin-bottom: 11px;
     margin-left: 1rem
 }
 
-
-
-#certificates #sectionSecondary article .cont{
+#certificates #sectionSecondary article .cont, #activies #sectionSecondary article .cont{
     box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
@@ -69,37 +75,37 @@
     
 
 }
-#certificates #sectionSecondary article h4{
+#certificates #sectionSecondary article h4, #activies #sectionSecondary article h4{
     display: flex;
     justify-content: space-between;
    font-weight: 600;
    padding-top: 1.5rem;
 
 }
-#certificates #sectionSecondary  .date .button{
+#certificates #sectionSecondary  .date .button, #activies #sectionSecondary  .date .button{
     background-color: transparent;
     margin-right: 2rem; 
     border: none !important;
 }
 
-#certificates #sectionSecondary .button {
+#certificates #sectionSecondary .button, #activies #sectionSecondary .button  {
     border-radius: 0 !important;
     font-weight: 300;
 
 }
 
 
-#certificates #sectionSecondary .date i{
+#certificates #sectionSecondary .date i,#activies #sectionSecondary .date i{
     margin-right: 8px;
     font-size: 1.3rem;
 }
 
-#certificates #sectionSecondary h4 {
+#certificates #sectionSecondary h4, #activies #sectionSecondary h4 {
     font-weight: 600;
     color: var(blue);
     margin-bottom: 0.50rem;
 }
-#certificates #sectionSecondary .date .button {
+#certificates #sectionSecondary .date .button, #activies #sectionSecondary .date .button {
     padding: 1rem;
     padding-left: 0;
     margin-right: 2rem;
@@ -117,18 +123,18 @@ hr{
 
 @media (max-width:1024px) {
     
-    #certificates {
+    #certificates, #activies {
         padding-top: 8rem;
         
      
     }
 
-    #certificates #sectionPrimary .is-6{  
+    #certificates #sectionPrimary .is-6, #activies #sectionPrimary .is-6{  
         padding-top: 1rem ;
         padding-left: 2rem;
         
     }
-    #certificates #sectionPrimary .titleProp {
+    #certificates #sectionPrimary .titleProp,#activies #sectionPrimary .titleProp  {
         font-size: 2rem;
         margin-bottom: 0.50rem;
         margin-top: 2rem;
@@ -136,7 +142,7 @@ hr{
     
     
     }
-    #certificates #sectionPrimary img {
+    #certificates #sectionPrimary img, #activies #sectionPrimary img {
         width: 30px;
         margin-left: 1rem;
     }
@@ -145,31 +151,8 @@ hr{
 }
 
 
-/* Mobile */
+/* TABLET */
 
-@media (max-width:576px) {
-    
-
-    #certificates #sectionPrimary {
-        padding: 1rem;
-        
-
-    }
-
-   
-
-    #home #sectionSecondary .titleProp span {
-        padding-left: 0;
-    }
-
-    .btn-title {
-        background-color: var(--gray);
-        height: auto;
-        padding: 1rem;
-    }
-
- 
-}
 
 @media (max-width:768px) {
     
@@ -179,31 +162,50 @@ hr{
     }
     
 }
+
+/* MOVIL */
+
 @media (max-width:550px) {
+
+    #certificates #sectionPrimary,#activies #sectionPrimary {
+        padding: 1rem;
+        
+
+    }
+
+    #home #sectionSecondary .titleProp span, #home #sectionSecondary .titleProp span {
+        padding-left: 0;
+    }
+
+    .btn-title {
+        background-color: var(--gray);
+        height: auto;
+        padding: 1rem;
+    }
     .section {
         padding: 1rem;
     }
-    #certificates{
+    #certificates,#activies{
         position: bottom;
     }
-    #certificates #sectionPrimary .columns{
+    #certificates #sectionPrimary .columns, #activies #sectionPrimary .columns{
         flex-direction: column;
     
     }
-    #certificates #sectionPrimary .is-6 {
+    #certificates #sectionPrimary .is-6,#activies #sectionPrimary .is-6 {
         padding: 8rem 1rem;
         padding-bottom: 0;
     }
-    #certificates #sectionPrimary .titleProp {
+    #certificates #sectionPrimary .titleProp,#activies #sectionPrimary .titleProp{
         margin-top: 1rem;
     }
-    #certificates #sectionSecondary .is-grouped {
+    #certificates #sectionSecondary .is-grouped,#activies #sectionSecondary .is-grouped {
         flex-direction: column;
         justify-content: center;
         
     
     }
-    #certificates #sectionSecondary .button {
+    #certificates #sectionSecondary .button,#activies #sectionSecondary .button  {
         margin-bottom: 20px;
         
     
