@@ -3,13 +3,13 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 8rem;
+    padding-top: 10rem;
     border-radius: 0;
     
 }
 #porfile {
     background-image: url('../img/perfil/bg_porfile_desktop.png');
-    background-position: bottom center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10rem;
@@ -28,6 +28,10 @@
 #register section form, #porfile section form {
     font-family: NotoSans;
     padding: 3rem;
+
+}
+#register section form .columns,#porfile section form .columns{
+    margin-bottom: 8rem;
 
 }
 #register section form .input,#porfile section form .input {
@@ -61,6 +65,12 @@
 #register section form  .fot-register,#porfile section form  .fot-register{
     padding-top: 5rem;
     margin-top: 2rem;
+    
+}
+#porfile section form  .header-form{
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    color: var(--white) !important;
     
 }
 #register section form .radio input,#porfile section form .radio input {
@@ -113,6 +123,10 @@ background: linear-gradient(90deg, rgba(2,88,160,1) 0%, rgba(0,144,255,1) 55%);
         padding-top: 4rem;
     
     }
+    #register section form, #porfile section form {
+        padding: 2rem 2rem;
+        padding-top: 4rem;
+    }
    
     #register section form .input,.control.has-icons-right .icon,#porfile section form .input,.control.has-icons-right .icon  {
         height: 2rem;
@@ -149,4 +163,14 @@ background: linear-gradient(90deg, rgba(2,88,160,1) 0%, rgba(0,144,255,1) 55%);
         padding-bottom: 6rem;
         margin-top: 6rem;
     }
+    #register section form, #porfile section form .columns{
+        margin-bottom: 2rem;
+    
+    }
+    #porfile section form  .header-form{
+        padding: 1rem 0;
+        color: var(--white) !important;
+        
+    }
+    
 }

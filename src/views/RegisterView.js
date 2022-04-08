@@ -33,7 +33,7 @@ export default function HomeView() {
             </header>
 
             <main id='register'>
-                <section className='section mb-4'>
+                <section className='section'>
 
                     <div className="columns is-centered">
                         <div className="column is-4">
@@ -128,15 +128,15 @@ export default function HomeView() {
                             <div className="field column is-12 fot-register">
                                 <div class="control">
                                     <label class="radio blue mb-3">
-                                        <input type="radio" name="foobar"/>
+                                        <input type="radio" name="foobar" />
                                         Deseo hacerme socio (costo xxx por mes)
                                     </label>
 
                                 </div>
                                 <div class="control">
                                     <label class="radio blue">
-                                        <input type="radio" name="foobar"/>
-                                            No deseo hacerme socio
+                                        <input type="radio" name="foobar" />
+                                        No deseo hacerme socio
                                     </label>
 
                                 </div>

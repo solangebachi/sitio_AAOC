@@ -12,10 +12,10 @@ export default function HomeView() {
 
     return (
         <>
-            <Navbar /> 
+            <Navbar />
 
             <main id='porfile'>
-                <section className='section mb-4'>
+                <section className='section'>
 
                     <div className="columns is-centered">
                         <div className="column is-4">
@@ -24,8 +24,24 @@ export default function HomeView() {
                                 <img src={arrowTitle} alt="" width="50px" />
                             </h1>
                         </div>
-                        <form className="column is-8">
+                        <form className="column is-8 my-5">
                             <div className="columns is-multiline is-centered">
+                                <div className="field column is-12 header-form">
+                                    <div class="control">
+                                        <label class="radio mb-3">
+                                            <input type="radio" name="foobar" />
+                                            Deseo hacerme socio (costo xxx por mes)
+                                        </label>
+
+                                    </div>
+                                    <div class="control">
+                                        <label class="radio">
+                                            <input type="radio" name="foobar" />
+                                            No deseo hacerme socio
+                                        </label>
+
+                                    </div>
+                                </div>
                                 <div className="field column is-6">
                                     <p className="control">
                                         <input className="input" type="text" placeholder="Nombre" />
@@ -108,20 +124,6 @@ export default function HomeView() {
 
 
                             <div className="field column is-12 fot-register">
-                                <div class="control">
-                                    <label class="radio blue mb-3">
-                                        <input type="radio" name="foobar"/>
-                                        Deseo hacerme socio (costo xxx por mes)
-                                    </label>
-
-                                </div>
-                                <div class="control">
-                                    <label class="radio blue">
-                                        <input type="radio" name="foobar"/>
-                                            No deseo hacerme socio
-                                    </label>
-
-                                </div>
                                 <p className="control">
                                     <button className="button is-fullwidth">
                                         Aceptar
