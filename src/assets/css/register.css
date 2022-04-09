@@ -147,9 +147,7 @@ background: linear-gradient(90deg, rgba(2,88,160,1) 0%, rgba(0,144,255,1) 55%);
     
 }
 @media (max-width:550px) {
-    #register .section,#porfile .section  {
-        padding: 1rem;
-    }
+   
     #register section form, #porfile section form {
         padding:1rem;
         padding-top: 4rem;
