@@ -6,15 +6,16 @@
     padding-top: 8rem;
     font-family: 'Poppins', sans-serif;
 }
-#activies {
+#activies #sectionPrimary{
     background-image: url('../img/actividades/bg_actividades.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 8rem;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
-#certificates #sectionPrimary,#activies #sectionPrimary {
+#certificates #sectionPrimary {
     padding: 1rem;
     padding-bottom: 3rem;
     
