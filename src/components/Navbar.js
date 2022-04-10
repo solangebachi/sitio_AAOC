@@ -44,24 +44,21 @@ class Navbar extends Component {
                                 <a href="/certificates" id='tvItem' className="navbar-item">
                                     <span className="icon-text">
                                         <span className="icon mr-2">
-                                            <img src={tvIcon} alt="" />
+                                            <i class="fa-solid fa-tv"></i>
+
                                         </span>
                                         <span className='mb-1'>AAOC Tv</span>
                                     </span>
                                 </a>
+                                <a href="/certificates" id='userItem' className="navbar-item bg-blue">
+                                    <span className="icon-textr">
 
-                                <div className="navbar-item">
-                                    <div className="field">
-                                        <p id='btn-navbar' className="control">
-                                            <a path="/login" className="button bg-blue" href="">
-                                                <span className="icon">
-                                                <i className="fa-regular fa-circle-user"></i>
-                                                </span>
-                                                <span>Nombre Usuario</span>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
+                                        <span className="icon mr-1">
+                                            <i className="fa-regular fa-circle-user white"></i>    
+                                        </span>
+                                        <span className='white mb-1'>Nombre Usuario</span>
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </nav>
