@@ -20,10 +20,10 @@ export default function HomeView() {
         <>
             <Navbar />
             <main id='home' style={home}>
-                <section id='sectionPrimary' className='section mb-4'>
+                <section className='section sectionPrimary mb-4'>
 
-                    <div className="columns is-gapless is-mobile">
-                        <div className="column is-7">
+                    <div className="columns is-gapless">
+                        <div className="column is-three-fifths border">
                             <h1 className="titleProp">
                                 <span className='title-border-white'>PRECEPTORÍA</span> <br />
                                 <span className='title-bold-white'>SISTEMA NERVIOSO <br /> CENTRAL <img src={arrowTitle} alt="" width="80px" /> </span>
@@ -37,18 +37,10 @@ export default function HomeView() {
                                 </p>
                             </div>
                         </div>
-                        <div className="column is-5">
-
-                        </div>
 
                     </div>
-
-
-                </section>
-
-                <section id='sectionSecondary' className='section mt-4'>
-                    <div className="columns mb-0 is-gapless is-centered">
-                        <div className="column is-8">
+                    <div className="columns is-centered is-gaples py-0 my-0 border">
+                        <div id='float' className="column is-8">
                             <h1 className="titleProp">
                                 <div className='text'>
                                     <span className='title-border-blue'>CONOZCA </span> <img src={lineBlue} alt="" />
@@ -60,6 +52,13 @@ export default function HomeView() {
                                 </div>
                             </h1>
                         </div>
+                    </div>
+
+                </section>
+
+                <section className='section sectionSecondary mt-4'>
+                    <div className="columns mb-0 is-gapless is-centered">
+
                     </div>
 
                     <div id='containerPosts' className="columns">
@@ -104,11 +103,11 @@ export default function HomeView() {
 
                                             </p>
                                             <a className="skyBlue icon-text" href="">
-                                            <span>Leer más</span>
+                                                <span>Leer más</span>
                                                 <span class="icon">
-                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right-long"></i>
                                                 </span>
-                                                
+
                                             </a>
                                         </div>
                                     </div>
@@ -126,11 +125,11 @@ export default function HomeView() {
 
                                             </p>
                                             <a className="skyBlue icon-text" href="">
-                                            <span>Leer más</span>
+                                                <span>Leer más</span>
                                                 <span class="icon">
-                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right-long"></i>
                                                 </span>
-                                                
+
                                             </a>
                                         </div>
                                     </div>
@@ -148,15 +147,15 @@ export default function HomeView() {
 
                                             </p>
                                             <a className="skyBlue icon-text" href="">
-                                            <span>Leer más</span>
+                                                <span>Leer más</span>
                                                 <span class="icon">
-                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right-long"></i>
                                                 </span>
-                                                
+
                                             </a>
                                         </div>
                                     </div>
-                                   
+
                                 </article>
                             </div>
                         </div>

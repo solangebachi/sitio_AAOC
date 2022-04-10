@@ -1,262 +1,264 @@
 #home {
-    background-image: url('../img/home/bg_section_1.png');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 8rem;
-    font-family: 'Poppins', sans-serif;
+
+    .sectionPrimary {
+        background-image: url('../img/home/bg_section_1.png');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*  height: 100vh; */
+        padding-top: 13rem;
+        font-family: 'Poppins', sans-serif;
+
+        .titleProp {
+            font-size: 4.6rem;
+
+        }
+
+        .column p {
+            padding-right: 15.5rem;
+
+        }
+
+        #btn-more .button,
+        #btnPost .button {
+            border-radius: 0;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            margin-top: 5rem;
+        }
+
+        #float {
+            position: relative;
+            top: 8rem;
+
+            .titleProp {
+                font-size: 3.3rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+
+                background-color: var(--white);
+                box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+                -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+                -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
+                border-radius: 0;
 
 
-    #sectionPrimary .titleProp {
-        font-size: 4.6rem;
-        &:hover{
-            background-color: aqua !important;
+                .text {
+                    padding-left: 5rem;
+
+                    img {
+                        width: 100px;
+                        margin-bottom: 11px;
+                        margin-left: 1rem
+                    }
+
+
+                }
+
+                .btn-title {
+                    background-color: var(--gray);
+                    padding: 2.5rem 3.3rem;
+
+                    img {
+                        width: 30px;
+                        height: 100%;
+
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+    .sectionSecondary {
+
+        #containerPosts {
+            font-family: NotoSans;
+            margin-top: 4rem;
+
+            h3 {
+                font-weight: 600;
+                color: var(--white);
+                margin-bottom: 1rem;
+
+            }
+
+
+            #btnPost {
+                display: flex;
+                justify-content: space-between;
+
+                .date {
+
+
+                    .button {
+                        padding: 1rem;
+                        padding-left: 0;
+                        margin-right: 2rem;
+                        background-color: transparent;
+                        border: none !important;
+                        color: var(--yelow) !important;
+                        margin-top: 2rem;
+                    }
+
+                }
+
+
+            }
+
+            #listPost {
+                h4 {
+                    font-weight: 600;
+                    color: var(blue);
+                    margin-bottom: 0.80rem;
+                }
+
+                .date .button {
+                    padding: 1rem;
+                    padding-left: 0;
+                    margin-right: 2rem;
+                    background-color: transparent;
+                    border: none !important;
+                    font-weight: 300;
+
+                }
+            }
+
+            #btnPost .date i,
+            #listPost .date i {
+                margin-right: 8px;
+                font-size: 1.3rem;
+            }
+        }
+
+        hr {
+            height: 1px;
         }
 
     }
-
-    #sectionPrimary .column p {
-        padding-right: 15.5rem;
-
-    }
-
-    #sectionPrimary #btn-more .button,
-    #btnPost .button {
-        border-radius: 0;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        margin-top: 5rem;
-    }
-
-    #sectionSecondary .titleProp {
-        font-size: 3.3rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-        margin-top: 12rem;
-        margin-bottom: 80px;
-        background-color: var(--white);
-        box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
-        -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
-        -moz-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
-        border-radius: 0;
-    }
-
-    #sectionSecondary .titleProp .text {
-        padding-left: 5rem;
-    }
-
-    #sectionSecondary .titleProp .text img {
-        width: 100px;
-        margin-bottom: 11px;
-        margin-left: 1rem
-    }
-
-    #sectionSecondary .btn-title {
-        background-color: var(--gray);
-        padding: 2.5rem 3.3rem;
-    }
-
-    #sectionSecondary .btn-title img {
-        width: 30px;
-        height: 100%;
-
-    }
-
-    #containerPosts {
-        font-family: NotoSans;
-    }
-
-    #containerPosts h3 {
-        font-weight: 600;
-        color: var(--white);
-        margin-bottom: 1rem;
-
-    }
-
-    #btnPost {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    #btnPost .date .button {
-        padding: 1rem;
-        padding-left: 0;
-        margin-right: 2rem;
-        background-color: transparent;
-        border: none !important;
-        color: var(--yelow) !important;
-        margin-top: 2rem;
-
-    }
-
-    #btnPost .button {
-        margin-top: 2rem;
-
-    }
-
-    #btnPost .date i,
-    #listPost .date i {
-        margin-right: 8px;
-        font-size: 1.3rem;
-    }
-
-    #listPost h4 {
-        font-weight: 600;
-        color: var(blue);
-        margin-bottom: 0.80rem;
-    }
-
-    #listPost .date .button {
-        padding: 1rem;
-        padding-left: 0;
-        margin-right: 2rem;
-        background-color: transparent;
-        border: none !important;
-        font-weight: 300;
-
-    }
-
-    hr {
-        height: 1px;
-    }
-
-    /* hasta pantallas grandes */
-
-    @media (min-width:1024px) {
-        /*   #sectionPrimary .titleProp {
-        padding: 1rem;
-    }
-
-
-     #sectionPrimary .titleProp img {
-        padding-left: 2rem;
-        width: 150px;
-    } */
-    }
-
 
     /*   Tablet y Laptop*/
 
     @media (max-width:1025px) {
 
-        #sectionPrimary .titleProp {
-            font-size: 2.6rem;
-            line-height: 2.5rem;
-            margin-bottom: 20px;
+        .sectionPrimary {
+
+            .titleProp {
+                font-size: 2.6rem;
+                line-height: 2.5rem;
+                margin-bottom: 20px;
+            }
+
+            .column p {
+                padding-right: 4rem;
+                font-size: 0.80rem;
+            }
         }
 
-        #sectionPrimary .column p {
-            padding-right: 4rem;
-            font-size: 0.80rem;
+
+        .sectionSecondary {
+
+            .titleProp {
+                font-size: 2rem;
+                line-height: 2.5rem;
+
+                .btn-title {
+                    padding: 2rem;
+
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+
+            #btnPost .date {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #btnPost .date .button {
+                margin-right: 0px;
+                display: flex;
+                justify-content: space-between;
+            }
         }
 
-        #sectionSecondary .titleProp {
-            font-size: 2rem;
-            line-height: 2.5rem;
-        }
 
-        #sectionSecondary .btn-title {
-            padding: 2rem;
-        }
-
-        #sectionSecondary .btn-title img {
-            width: 60px;
-        }
-
-        #btnPost .date {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #btnPost .date .button {
-            margin-right: 0px;
-            display: flex;
-            justify-content: space-between;
-        }
 
 
     }
 
 
-    /* Mobile */
 
     @media (max-width:576px) {
         /*  {
         padding-top: 7rem;
     } */
 
-        .section {
-            padding: 3rem 1rem;
-        }
-
-        #sectionPrimary {
-            padding: 0 1rem;
+        .sectionPrimary {
+            padding-top: 6rem;
             margin-bottom: 1rem;
 
-        }
+            .titleProp {
+                font-size: 2rem;
+                line-height: 2rem;
+            }
 
-        #sectionPrimary .titleProp {
-            font-size: 2rem;
-            line-height: 2rem;
-        }
+            .column p {
+                padding-right: 1rem;
+                font-size: 0.70rem;
+            }
 
-        #sectionPrimary .column p {
-            padding-right: 1rem;
-            font-size: 0.70rem;
-        }
+            #btn-more .button {
+                border-radius: 0;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-top: 1.5rem;
+            }
 
-        #sectionPrimary #btn-more .button {
-            border-radius: 0;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        #sectionSecondary .titleProp {
-            font-size: 1.3rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 0;
-            padding: 0;
-            line-height: 2rem;
-            top: -20px;
 
         }
 
-        #sectionSecondary .titleProp span {
-            padding-left: 0;
-        }
 
-        .btn-title {
-            background-color: var(--gray);
-            height: auto;
-            padding: 1rem;
-        }
+        .sectionSecondary {
 
-        .btn-title img {
-            width: 30px;
-        }
+            .titleProp {
+                font-size: 1.3rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 0;
+                padding: 0;
+                line-height: 2rem;
+                top: -20px;
 
-        #sectionSecondary .titleProp .text {
-            padding-left: 1rem;
-        }
+                span {
+                    padding-left: 0;
+                }
 
-        #sectionSecondary .titleProp .text img {
-            width: 46px;
-            margin-bottom: 4px;
-        }
+                .btn-title {
+                    background-color: var(--gray);
+                    height: auto;
+                    padding: 1rem;
 
-        #sectionSecondary .btn-title {
-            padding: 1rem;
-        }
+                    img {
+                        width: 20px;
+                    }
+                }
 
-        #sectionSecondary .btn-title img {
-            width: 20px;
+                .text {
+                    padding-left: 1rem;
+
+                    img {
+                        width: 46px;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
         }
 
         #btnPost {
@@ -268,16 +270,12 @@
 
     @media (max-width:768px) {
 
-        .section {
+        /*  .section {
             padding: 1rem 2.5rem;
             padding-bottom: 0;
-        }
+        } */
 
     }
 
-    @media (max-width:550px) {
-        .section {
-            padding: 1rem;
-        }
-    }
+    @media (max-width:550px) {}
 }
