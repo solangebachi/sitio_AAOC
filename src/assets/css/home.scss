@@ -11,20 +11,11 @@
 
         .titleProp {
             font-size: 4.6rem;
-
         }
 
         .column p {
             padding-right: 15.5rem;
 
-        }
-
-        #btn-more .button,
-        #btnPost .button {
-            border-radius: 0;
-            padding-left: 3rem;
-            padding-right: 3rem;
-            margin-top: 5rem;
         }
 
         #float {
@@ -37,7 +28,6 @@
                 justify-content: space-between;
                 align-items: center;
                 padding: 0;
-
                 background-color: var(--white);
                 box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
                 -webkit-box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.19);
@@ -72,13 +62,19 @@
         }
     }
 
-
+    #btn-more .button,
+    #btnPost .button {
+        border-radius: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 5rem;
+    }
 
     .sectionSecondary {
 
         #containerPosts {
             font-family: NotoSans;
-            margin-top: 4rem;
+            margin-top: 6rem;
 
             h3 {
                 font-weight: 600;
@@ -143,9 +139,11 @@
 
     /*   Tablet y Laptop*/
 
-    @media (max-width:1025px) {
+    @media (max-width:1024px) {
 
         .sectionPrimary {
+            padding-top: 10rem;
+
 
             .titleProp {
                 font-size: 2.6rem;
@@ -155,24 +153,33 @@
 
             .column p {
                 padding-right: 4rem;
-                font-size: 0.80rem;
             }
+
+            #float {
+
+                position: inherit;
+                top: 0rem;
+
+                .titleProp {
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+
+                    .btn-title {
+                        padding: 2rem;
+
+                        img {
+                            width: 60px;
+                        }
+                    }
+                }
+            }
+
         }
 
 
         .sectionSecondary {
-
-            .titleProp {
-                font-size: 2rem;
-                line-height: 2.5rem;
-
-                .btn-title {
-                    padding: 2rem;
-
-                    img {
-                        width: 60px;
-                    }
-                }
+            #containerPosts {
+                margin-top: 0;
             }
 
             #btnPost .date {
@@ -192,16 +199,19 @@
 
     }
 
-
-
-    @media (max-width:576px) {
-        /*  {
-        padding-top: 7rem;
-    } */
+    /* 
+Mobile */
+    @media (max-width:667px) {
+        .section {
+            padding-top: 0;
+            padding-bottom: 2rem;
+        }
 
         .sectionPrimary {
             padding-top: 6rem;
             margin-bottom: 1rem;
+            text-align: center;
+            background-position: left;
 
             .titleProp {
                 font-size: 2rem;
@@ -209,8 +219,8 @@
             }
 
             .column p {
-                padding-right: 1rem;
-                font-size: 0.70rem;
+                padding-right: 0rem;
+
             }
 
             #btn-more .button {
@@ -218,64 +228,95 @@
                 padding-left: 1rem;
                 padding-right: 1rem;
                 margin-top: 1.5rem;
+
             }
 
+            #float {
 
+                .titleProp {
+                    font-size: 1.3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-radius: 0;
+                    padding: 0;
+                    line-height: 2rem;
+                    top: -20px;
+
+                    span {
+                        padding-left: 0;
+                    }
+
+                    .btn-title {
+                        background-color: var(--gray);
+                        height: auto;
+                        padding: 1rem;
+
+                        img {
+                            width: 20px;
+                        }
+                    }
+
+                    .text {
+                        padding-left: 1rem;
+
+                        img {
+                            width: 46px;
+                            margin-bottom: 4px;
+                        }
+                    }
+                }
+            }
         }
-
 
         .sectionSecondary {
+            #containerPosts .post {
+                text-align: center;
+                
 
-            .titleProp {
-                font-size: 1.3rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                border-radius: 0;
-                padding: 0;
-                line-height: 2rem;
-                top: -20px;
+                #btnPost {
+                    
+                    flex-direction: column;
+                    justify-content: center;
 
-                span {
-                    padding-left: 0;
+                    .date {
+                        justify-content: space-around;
+                        .button{
+                            margin-right: 0;
+                        }
+                    }
+                   
+                    .btn-inscribirse .button {
+                        margin-top: 1rem;
+                    }
+                    
+
                 }
+                .field.is-grouped>.control:not(:last-child) {
 
-                .btn-title {
-                    background-color: var(--gray);
-                    height: auto;
-                    padding: 1rem;
+                    margin-right: 0;
+               }
 
-                    img {
-                        width: 20px;
+                #listPost {
+
+                    .subtitle {
+                        text-align: center;
+                    }
+
+                    .date .button {
+                        padding: 0;
+                        font-size: 0.75rem;
+
                     }
                 }
 
-                .text {
-                    padding-left: 1rem;
-
-                    img {
-                        width: 46px;
-                        margin-bottom: 4px;
-                    }
-                }
             }
         }
 
-        #btnPost {
-            flex-direction: column;
-            justify-content: center;
-        }
-
     }
 
-    @media (max-width:768px) {
 
-        /*  .section {
-            padding: 1rem 2.5rem;
-            padding-bottom: 0;
-        } */
 
-    }
 
-    @media (max-width:550px) {}
+
 }

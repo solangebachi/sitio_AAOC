@@ -74,9 +74,30 @@
     font-family: 'Poppins', sans-serif;
     color:  #FFFFFF;
     font-weight: 800; 
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
   }
   .title-bold-blue {
     font-family: 'Poppins', sans-serif;
     color: #0157a0;
     font-weight: 800;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
   }
+
+  .textLineBlue {
+    background: linear-gradient(0deg, #0080FF 18px, transparent 7px) 0 1.1em;
+    @media (max-width:550px){
+        &{
+            background: linear-gradient(0deg, #0080FF 7px, transparent 7px) 0 1.1em;  
+        }
+    }
+    
+}
+.textLineYelow {
+    background: linear-gradient(0deg, #F6C10D 15px, transparent 7px) 0 1.1em;
+  
+    @media (max-width:550px){
+        &{
+            background: linear-gradient(0deg, #F6C10D 7px, transparent 7px) 0 1.1em;  
+        }
+    }
+}

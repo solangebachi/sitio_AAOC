@@ -20,13 +20,13 @@ export default function HomeView() {
         <>
             <Navbar />
             <main id='home' style={home}>
-                <section className='section sectionPrimary mb-4'>
+                <section className='section sectionPrimary'>
 
                     <div className="columns is-gapless">
-                        <div className="column is-three-fifths border">
+                        <div className="column is-three-fifths">
                             <h1 className="titleProp">
                                 <span className='title-border-white'>PRECEPTORÍA</span> <br />
-                                <span className='title-bold-white'>SISTEMA NERVIOSO <br /> CENTRAL <img src={arrowTitle} alt="" width="80px" /> </span>
+                                <span className='title-bold-white'>SISTEMA <span className='textLineBlue'>NERVIOSO</span> <br /> CENTRAL <img src={arrowTitle} alt="" width="80px" /> </span>
                             </h1>
                             <p className='white pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit, quos culpa, atque incidunt, est adipisci iste alias accusamus molestiae vero numquam aspernatur, eligendi sunt blanditiis.</p>
                             <div id='btn-more' className="field">
@@ -39,13 +39,13 @@ export default function HomeView() {
                         </div>
 
                     </div>
-                    <div className="columns is-centered is-gaples py-0 my-0 border">
+                    <div className="columns is-centered is-gaples py-0 my-0">
                         <div id='float' className="column is-8">
                             <h1 className="titleProp">
                                 <div className='text'>
                                     <span className='title-border-blue'>CONOZCA </span> <img src={lineBlue} alt="" />
                                     <br />
-                                    <span className='title-bold-blue'>LAS ACTIVIDADES </span>
+                                    <span className='title-bold-blue'><span className='textLineYelow' >LAS</span> ACTIVIDADES </span>
                                 </div>
                                 <div className='btn-title'>
                                     <img src={arrowBtn} alt="" />
@@ -56,13 +56,10 @@ export default function HomeView() {
 
                 </section>
 
-                <section className='section sectionSecondary mt-4'>
-                    <div className="columns mb-0 is-gapless is-centered">
-
-                    </div>
+                <section className='section sectionSecondary'>
 
                     <div id='containerPosts' className="columns">
-                        <div className="column is-6">
+                        <div className="post column is-6">
                             <p className='blue subtitle is-4'>Actividad destacada</p>
                             <figure className='image is-2by1'>
                                 <img src={postDestacado} alt="" />
@@ -78,7 +75,7 @@ export default function HomeView() {
                                         <span className='button yelow'><i class="fa-regular fa-clock"></i> 16:00hs</span>
 
                                     </p>
-                                    <p className="control">
+                                    <p className="control btn-inscribirse">
                                         <a className="button is-normal bg-white" href="">
                                             <span className='blue'>Inscribirse</span>
                                         </a>
@@ -93,7 +90,7 @@ export default function HomeView() {
                                 {/* Column Dinamic */}
                                 <article className="column is-12">
                                     <div className='is-flex is-flex-direction-row'>
-                                        <img src={post1} alt="" width="137" />
+                                        <img src={post1} alt="" />
                                         <div className="is-flex is-flex-direction-column is-justify-content-space-between pl-4">
                                             <h4 className='subtitle is-5 blue'>Nombre de la actividad</h4>
                                             <p className="control date">
@@ -115,7 +112,7 @@ export default function HomeView() {
                                 </article>
                                 <article className="column is-12">
                                     <div className='is-flex is-flex-direction-row'>
-                                        <img src={post2} alt="" width="137" />
+                                        <img src={post2} alt="" />
                                         <div className="is-flex is-flex-direction-column is-justify-content-space-between pl-4">
                                             <h4 className='subtitle is-5 blue'>Nombre de la actividad</h4>
                                             <p className="control date">
@@ -137,7 +134,7 @@ export default function HomeView() {
                                 </article>
                                 <article className="column is-12">
                                     <div className='is-flex is-flex-direction-row'>
-                                        <img src={post3} alt="" width="137" />
+                                        <img src={post3} alt="" />
                                         <div className="is-flex is-flex-direction-column is-justify-content-space-between pl-4">
                                             <h4 className='subtitle is-5 blue'>Nombre de la actividad</h4>
                                             <p className="control date">
