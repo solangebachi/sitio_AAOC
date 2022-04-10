@@ -1,0 +1,73 @@
+#menuNav{
+    position: absolute;
+    top: 2rem;
+
+    .navbar-item img {
+        max-height: unset;
+        width: 55%;
+    }
+    
+    .navbar-menu .navbar-item span {
+        font-family: NotoSans;
+        color: var(--blue);
+        border-bottom: 4px solid transparent;
+    
+    }
+    .navbar-menu .navbar-item span:hover{
+        border-bottom: 4px solid var(--gray);
+        color: var(--gray);
+    }
+    .navbar-menu #tvItem span,.icon-text span{
+        border-bottom:none !important;
+    }
+    
+    .icon-text span:hover{
+        color: var(--skyBlue) !important;
+    }
+    .navbar-menu .navbar-item button i{
+        color: white;
+    }
+    #btn-navbar .button span{
+        color: white !important;
+        border:none !important;
+    
+    }
+    #btn-navbar .button i{
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    #btn-navbar .button {
+        border-radius: 0px;
+    }
+    .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+        background-color: transparent;   
+    }
+    
+}
+
+@media (min-width:1024px) {
+
+    .navbar-menu .navbar-item {
+        padding-left: 1rem;
+
+    }
+}
+@media (max-width:576px)
+{
+    #menuNav{ 
+        padding: 0 1rem;
+        top: 1rem;
+        margin-bottom: 2rem;
+        
+    }
+    .navbar-brand{
+      margin-left: 0;
+    }
+    .navbar-brand .navbar-item{
+        padding-left: 0;
+      }
+      .navbar-item img {
+        max-height: unset;
+        width: 5rem;
+    }
+}

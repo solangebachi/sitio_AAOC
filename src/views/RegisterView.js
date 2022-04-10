@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../assets/css/register.css"
+import "../assets/css/register.scss"
 
 import Logo from '../assets/img/navbar/logo.svg'
 import arrowTitle from '../assets/img/registro/arrow_title.svg'

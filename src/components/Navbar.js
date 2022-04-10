@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "../assets/css/navbar.css"
+import "../assets/css/navbar.scss"
 import Logo from '../assets/img/navbar/logo.svg'
 import tvIcon from '../assets/img/navbar/tv_navbar.svg'
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../assets/css/home.css"
+import "../assets/css/home.scss"
 import Navbar from '../components/Navbar'
 
 import arrowTitle from '../assets/img/home/arrow_rigth.svg'

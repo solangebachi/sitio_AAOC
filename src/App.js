@@ -4,7 +4,7 @@ import {
 	Route
 } from "react-router-dom"
 
-import "./App.css"
+import "./App.scss"
 import HomeView from './views/HomeView'
 import LoginView from './views/LoginView'
 import RegisterView from './views/RegisterView'
