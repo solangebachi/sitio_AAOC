@@ -76,7 +76,7 @@
     }
 
 
-    @media (max-width:1024px) {
+    @media (max-width:768px) {
         .section {
             padding: 1rem 2.5rem;
             padding-bottom: 0;
@@ -126,7 +126,7 @@
         }
     }
 
-    @media (max-width:1024px) {
+    @media (max-width:768px) {
         & {
             background-image: url('../img/registro/bg_register_mobile.png');
             background-position: top;
@@ -145,7 +145,7 @@
 
 #porfile {
     background-image: url('../img/perfil/bg_porfile_desktop.png');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10rem;
@@ -153,8 +153,17 @@
 
     form {
         .fot-register {
-            padding-top: 8rem;
-            margin-top: 2rem;
+            padding-top: 4rem;
+            margin-top: 8rem;
+
+            @media (max-width:768px){
+                
+                    & {
+                        padding-top: 1rem;
+                        margin-top: 2rem;
+                    }
+                
+            }
 
         }
 
@@ -166,14 +175,50 @@
         }
     }
     
-    @media (max-width:1024px) {
+    @media (max-width:768px) {
         & {
-            background-image: url('../img/perfil/bg_porfile_mobile_1.png');
-            
+            background-image: url('../img/perfil/bg_porfile_mobile_5.png');
+            background-position: top;
             padding-top: 10rem;
+
+            form{
+                .columns {
+                    padding: 0;
+                   /*  margin-bottom: 8rem; */
+        
+                }
+            }
+
+            
+
+            
         }
 
     }
+
+    @media (max-width:555px){
+
+        padding-top: 5rem;
+
+        .section{
+            padding: 1rem 1.5rem;
+
+            form{
+                margin: 0 !important;
+                padding-top: 0;
+            }
+            .header-form {
+                padding-bottom: 3rem;
+               
+                .control{
+                    font-size: 0.75rem;
+                }
+                
+    
+            }
+        }
+    }
+    
 
 }
 
@@ -185,7 +230,9 @@
 */
 
 
-@media (max-width:555px) {
+/* @media (max-width:555px) {
+
+}
 
     #register section form,
     #porfile section form {
@@ -218,4 +265,4 @@
 
     }
 
-}
+} */
