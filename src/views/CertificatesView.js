@@ -23,14 +23,14 @@ export default function HomeView() {
             <main id='certificates' style={home}>
                 <section id='sectionPrimary' className='section mb-4'>
 
-                    <div className="columns is-mobile">
+                    <div className="columns">
                         <div className="column is-6">
 
                         </div>
                         <div className="column is-6">
                             <h1 className="titleProp">
                                 <span className='title-border-white'>MIS</span> <br />
-                                <span className='title-bold-white'>CERTIFICADOS <br /> </span>
+                                <span className='title-bold-white'> <span className='textLineBlue' >CERTIFICADOS</span> <br /> </span>
                             </h1>
                             <img src={arrowTitle} alt="" />
                         </div>
@@ -44,7 +44,7 @@ export default function HomeView() {
                         <div className='text'>
                             <span className='title-border-blue'>TODOS</span> <img src={lineBlue} alt="" />
                             <br />
-                            <span className='title-bold-blue'>MIS CERTIFICADOS</span>
+                            <span className='title-bold-blue'>MIS <span className='textLineBlue' >CERTIFICADOS</span> </span>
                         </div>
                     </h1>
                     <div className="columns is-multiline is-centered">

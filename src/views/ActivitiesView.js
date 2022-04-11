@@ -33,7 +33,7 @@ export default function ActivitiesView() {
                         <div className="column is-6">
                             <h1 className="titleProp">
                                 <span className='title-border-white'>MIS</span> <br />
-                                <span className='title-bold-white'>ACTIVIDADES <br /> </span>
+                                <span className='title-bold-white'><span className='textLineBlue'>ACTIVIDADES </span> <br /> </span>
                             </h1>
                             <img src={arrowTitle} alt="" />
                         </div>
@@ -47,7 +47,7 @@ export default function ActivitiesView() {
                         <div className='text'>
                             <span className='title-border-blue'>ACTIVIDADES</span>
                             <br />
-                            <span className='title-bold-blue'>EN LAS QUE <img src={lineBlue} alt="" /> <br /> ESTOY SUSCRIPTO</span>
+                            <span className='title-bold-blue'>EN LAS QUE <img src={lineBlue} alt="" /> <br /><span className='textLineYelow'> ESTOY</span> SUSCRIPTO</span>
                         </div>
                     </h1>
                     <div className="columns is-multiline is-centered">
@@ -146,7 +146,7 @@ export default function ActivitiesView() {
                         <div className='text'>
                             <span className='title-border-white'>ACTIVIDADES</span>
                             <br />
-                            <span className='title-bold-white'>EN LAS QUE NO<br /> ESTOY SUSCRIPTO</span>
+                            <span className='title-bold-white'>EN LAS QUE NO<br /><span className='textLineBlue2'> ESTOY</span> SUSCRIPTO</span>
                         </div>
                     </h1>
                     <div className="columns is-multiline is-centered">
