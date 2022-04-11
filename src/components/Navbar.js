@@ -31,7 +31,7 @@ class Navbar extends Component {
                                 <a href="/porfile" className="navbar-item">
                                     <span>Mi Perfil</span>
                                 </a>
-                                <a href="/activies" className="navbar-item">
+                                <a href="/activities" className="navbar-item">
                                     <span>Mis Actividades</span>
                                 </a>
                                 <a href="/certificates" className="navbar-item">

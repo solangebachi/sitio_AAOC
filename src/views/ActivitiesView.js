@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "../assets/css/certificatesAndActivies.scss"
+import "../assets/css/certificatesAndActivities.scss"
 import Navbar from '../components/Navbar'
+import Modal from '../components/Modal'
 import lineBlue from '../assets/img/home/bg_line-100.jpg'
 
 import arrowTitle from '../assets/img/certificados/arrow_yellow.svg'
@@ -11,16 +12,17 @@ import certificate3 from '../assets/img/certificados/cert_3.png'
 
 
 
-export default function HomeView() {
+export default function ActivitiesView() {
 
     const home = {
+        
 
     }
 
     return (
         <>
             <Navbar />
-            <main id='activies' style={home}>
+            <main id='activities' style={home}>
                 <section id='sectionPrimary' className='section mb-4'>
 
                     <div className="columns is-mobile">
@@ -66,11 +68,11 @@ export default function HomeView() {
                                 </p>
                                 <hr class="bg-gray mt-5"></hr>
                                 <div class="field is-flex is-justify-content-center">
-                                    <p class="control">
+                                    <a href='/event' class="control">
                                         <button class="button blue">
                                             Ver más
                                         </button>
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -94,11 +96,11 @@ export default function HomeView() {
                                 </p>
                                 <hr class="bg-gray mt-5"></hr>
                                 <div class="field is-flex is-justify-content-center">
-                                    <p class="control">
+                                    <a href='/event' class="control">
                                         <button class="button blue">
                                             Ver más
                                         </button>
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -122,11 +124,11 @@ export default function HomeView() {
                                 </p>
                                 <hr class="bg-gray mt-5"></hr>
                                 <div class="field is-flex is-justify-content-center">
-                                    <p class="control">
+                                    <a href='/event' class="control">
                                         <button class="button blue">
                                             Ver más
                                         </button>
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -232,9 +234,6 @@ export default function HomeView() {
                     </div>
                    
                 </section>
-
-
-
 
             </main>
             {/* <img src={Logo} alt="" /> */}

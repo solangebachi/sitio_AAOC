@@ -66,10 +66,14 @@
 
 .modal-background {
 
-    background-color: #0157a0;
+    background-color: transparent;
 
 }
 
 .button {
     border-radius: 0;
+}
+.modal-close{
+
+    background-color: rgba(10,10,10,.2);
 }

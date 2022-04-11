@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Modal from '../components/Modal'
-import '../assets/css/modal.scss'
 import Logo from '../assets/img/navbar/logo.svg'
 
 export default function EventView() {
