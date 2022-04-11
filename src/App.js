@@ -11,6 +11,7 @@ import RegisterView from './views/RegisterView'
 import PorfileView from './views/PorfileView'
 import CertificatesView from './views/CertificatesView'
 import ActiviesView from './views/ActiviesView'
+import BillingView from './views/BillingView'
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
 					<Route exact path="/porfile" component={PorfileView} />
 					<Route exact path="/certificates" component={CertificatesView} />
 					<Route exact path="/activies" component={ActiviesView} />
+					<Route exact path="/billing" component={BillingView} />
 					
 				</div>
 				
