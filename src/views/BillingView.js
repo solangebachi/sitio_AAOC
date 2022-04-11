@@ -10,7 +10,7 @@ import post1 from '../assets/img/home/post_1.png'
 import post2 from '../assets/img/home/post_2.png'
 import post3 from '../assets/img/home/post_3.png'
 
-export default function HomeView() {
+export default function BillingView() {
 
     const home = {
 

@@ -37,11 +37,11 @@ class Navbar extends Component {
                                 <a href="/certificates" className="navbar-item">
                                     <span>Certificados</span>
                                 </a>
-                                <a href="/#" className="navbar-item">
+                                <a href="/billing" className="navbar-item">
                                     <span>Facturación</span>
                                 </a>
 
-                                <a href="/certificates" id='tvItem' className="navbar-item">
+                                <a href="/event" id='tvItem' className="navbar-item">
                                     <span className="icon-text">
                                         <span className="icon mr-2">
                                             <i class="fa-solid fa-tv"></i>
@@ -50,8 +50,8 @@ class Navbar extends Component {
                                         <span className='mb-1'>AAOC Tv</span>
                                     </span>
                                 </a>
-                                <a href="/certificates" id='userItem' className="navbar-item bg-blue">
-                                    <span className="icon-textr">
+                                <a href="/login" id='userItem' className="navbar-item bg-blue">
+                                    <span className="icon-text">
 
                                         <span className="icon mr-1">
                                             <i className="fa-regular fa-circle-user white"></i>    
