@@ -127,7 +127,7 @@ export default function HomeView() {
 
                             <div className="field column is-12 fot-register">
                                 <div class="control">
-                                    <label class="radio blue mb-3">
+                                    <label class="radio blue">
                                         <input type="radio" name="foobar" />
                                         Deseo hacerme socio (costo xxx por mes)
                                     </label>

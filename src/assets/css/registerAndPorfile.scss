@@ -19,7 +19,7 @@
         .columns {
             font-family: NotoSans;
             padding: 0 3rem;
-           /*  margin-bottom: 8rem; */
+            /*  margin-bottom: 8rem; */
 
         }
 
@@ -78,19 +78,20 @@
 
     @media (max-width:768px) {
         .section {
-            padding: 1rem 2.5rem;
+            padding: 1rem 1.5rem;
             padding-bottom: 0;
+
 
             .titleProp {
                 font-family: 'Poppins', sans-serif;
                 font-size: 4rem;
                 line-height: 4rem;
                 text-align: center;
-        
+
                 img {
                     margin-top: 1rem;
                     width: 25px;
-            
+
                 }
             }
 
@@ -100,7 +101,13 @@
 
                 button {
                     margin-top: 1rem;
-            
+
+                }
+
+                .columns {
+                    padding: 0;
+                    /*  margin-bottom: 8rem; */
+
                 }
             }
         }
@@ -111,33 +118,74 @@
 
 /* ######################### Register ############################## */
 #register {
-    background-image: url('../img/registro/bg_register_pc.png');
+    background-image: url('../img/registro/bg_register_desktop.png');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10rem;
     border-radius: 0;
 
+    .section {
+        padding-bottom: 0;
+
+        .titleProp {
+
+            font-size: 3rem;
+        }
+    }
+
     form {
         .fot-register {
-            padding-top: 5rem;
-            margin-top: 2rem;
+            padding-top: 3rem;
+            margin-top: 5em;
+
+            @media (max-width:555px) {
+                & {
+                     padding-top: 1rem;
+                     margin-top: 4rem;
+                }
+             }
+
+            .button {
+                margin-bottom: 1rem;
+            }
 
         }
     }
 
     @media (max-width:768px) {
-        & {
-            background-image: url('../img/registro/bg_register_mobile.png');
-            background-position: top;
-            padding-top: 9rem;
+
+        &{
+        background-image: url('../img/registro/bg_mobile_register.png');
+        padding-top: 7rem;
+        background-position: top;
+        }
+       
+    }
+    @media (max-width:555px) {
+
+        padding-top: 5rem;
+
+        .section {
+            form {
+                margin: 0 !important;
+                padding-top: 0;
+            }
 
             .fot-register {
-                padding-bottom: 4rem;
-                margin-top: 2rem;
+               padding: 0;
+
+                .control {
+                    font-size: 0.75rem;
+                    margin-bottom: 0.5rem;
+                }
+
+
             }
         }
     }
+
+
 
 }
 
@@ -156,13 +204,13 @@
             padding-top: 4rem;
             margin-top: 8rem;
 
-            @media (max-width:768px){
-                
-                    & {
-                        padding-top: 1rem;
-                        margin-top: 2rem;
-                    }
-                
+            @media (max-width:768px) {
+
+                & {
+                    padding-top: 1rem;
+                    margin-top: 2rem;
+                }
+
             }
 
         }
@@ -174,51 +222,38 @@
 
         }
     }
-    
+
     @media (max-width:768px) {
         & {
             background-image: url('../img/perfil/bg_porfile_mobile_5.png');
             background-position: top;
             padding-top: 10rem;
-
-            form{
-                .columns {
-                    padding: 0;
-                   /*  margin-bottom: 8rem; */
-        
-                }
-            }
-
-            
-
-            
         }
 
     }
 
-    @media (max-width:555px){
+    @media (max-width:555px) {
 
         padding-top: 5rem;
 
-        .section{
-            padding: 1rem 1.5rem;
-
-            form{
+        .section {
+            form {
                 margin: 0 !important;
                 padding-top: 0;
             }
+
             .header-form {
                 padding-bottom: 3rem;
-               
-                .control{
+
+                .control {
                     font-size: 0.75rem;
                 }
-                
-    
+
+
             }
         }
     }
-    
+
 
 }
 
