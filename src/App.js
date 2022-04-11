@@ -8,11 +8,10 @@ import "./App.scss"
 import HomeView from './views/HomeView'
 import LoginView from './views/LoginView'
 import RegisterView from './views/RegisterView'
-import PorfileView from './views/PorfileView'
+import ProfileView from './views/ProfileView'
 import CertificatesView from './views/CertificatesView'
 import ActivitiesView from './views/ActivitiesView'
 import BillingView from './views/BillingView'
-import EventView from './views/EventView'
 
 
 export default function App() {
@@ -26,11 +25,10 @@ export default function App() {
 				<div className="App">
 					<Route exact path="/" component={HomeView} />
 					<Route exact path="/login" component={LoginView} />
-					<Route exact path="/signup" component={RegisterView} />
-					<Route exact path="/porfile" component={PorfileView} />
+					<Route exact path="/register" component={RegisterView} />
+					<Route exact path="/profile" component={ProfileView} />
 					<Route exact path="/certificates" component={CertificatesView} />
 					<Route exact path="/activities" component={ActivitiesView} />
-					<Route exact path="/event" component={EventView} />
 					<Route exact path="/billing" component={BillingView} />
 				</div>
 				

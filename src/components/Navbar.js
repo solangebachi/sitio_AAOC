@@ -3,8 +3,7 @@ import "../assets/css/navbar.scss"
 import Logo from '../assets/img/navbar/logo.svg'
 import tvIcon from '../assets/img/navbar/tv_navbar.svg'
 
-class Navbar extends Component {
-    render() {
+export default function Navbar () {
 
         return (
             <>
@@ -28,7 +27,7 @@ class Navbar extends Component {
                                 <a href="/" className="navbar-item">
                                     <span>Inicio</span>
                                 </a>
-                                <a href="/porfile" className="navbar-item">
+                                <a href="/profile" className="navbar-item">
                                     <span>Mi Perfil</span>
                                 </a>
                                 <a href="/activities" className="navbar-item">
@@ -41,7 +40,7 @@ class Navbar extends Component {
                                     <span>Facturación</span>
                                 </a>
 
-                                <a href="/event" id='tvItem' className="navbar-item">
+                                <p id='tvItem' className="navbar-item">
                                     <span className="icon-text">
                                         <span className="icon mr-2">
                                             <i class="fa-solid fa-tv"></i>
@@ -49,7 +48,7 @@ class Navbar extends Component {
                                         </span>
                                         <span className='mb-1'>AAOC Tv</span>
                                     </span>
-                                </a>
+                                </p>
                                 <a href="/login" id='userItem' className="navbar-item bg-blue">
                                     <span className="icon-text">
 
@@ -65,7 +64,5 @@ class Navbar extends Component {
                 </header>
             </>
         )
-    }
+    
 }
-
-export default Navbar;

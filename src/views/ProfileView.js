@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import "../assets/css/registerAndPorfile.scss"
+import "../assets/css/registerAndProfile.scss"
 import Navbar from '../components/Navbar'
 import Logo from '../assets/img/navbar/logo.svg'
 import arrowTitle from '../assets/img/registro/arrow_title.svg'
 
-export default function HomeView() {
+export default function ProfileView() {
     const home = {
 
         backgroundColor: "#ffffff"
@@ -14,7 +14,7 @@ export default function HomeView() {
         <>
             <Navbar />
 
-            <main id='porfile'>
+            <main id='profile'>
                 <section className='section'>
 
                     <div className="columns is-centered">

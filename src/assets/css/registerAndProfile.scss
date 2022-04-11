@@ -1,7 +1,7 @@
 /* ######################### Register & Porfile ############################## */
 
 #register,
-#porfile {
+#profile {
 
     section .titleProp {
         font-family: 'Poppins', sans-serif;
@@ -191,7 +191,7 @@
 
 /* ######################### Porfile ############################## */
 
-#porfile {
+#profile {
     background-image: url('../img/perfil/bg_porfile_desktop.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -270,31 +270,31 @@
 }
 
     #register section form,
-    #porfile section form {
+    #profile section form {
         padding: 1rem;
         padding-top: 4rem;
 
     }
 
     #register section form .help,
-    #porfile section form .help {
+    #profile section form .help {
         font-size: 0.75rem;
         text-align: center;
     }
 
     #register section form .fot-register,
-    #porfile section form .fot-register {
+    #profile section form .fot-register {
         padding-bottom: 6rem;
         margin-top: 6rem;
     }
 
     #register section form,
-    #porfile section form .columns {
+    #profile section form .columns {
         margin-bottom: 2rem;
 
     }
 
-    #porfile section form .header-form {
+    #profile section form .header-form {
         padding: 1rem 0;
         color: var(--white) !important;
 

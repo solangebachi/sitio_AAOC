@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../assets/css/certificatesAndActivities.scss"
 import Navbar from '../components/Navbar'
-import Modal from '../components/Modal'
+import Modal from '../components/ModalActivities'
 import lineBlue from '../assets/img/home/bg_line-100.jpg'
 
 import arrowTitle from '../assets/img/certificados/arrow_yellow.svg'
@@ -14,11 +14,12 @@ import certificate3 from '../assets/img/certificados/cert_3.png'
 
 export default function ActivitiesView() {
 
+    const [showModal, setShowModal] = useState(false)
+
     const home = {
         
 
     }
-
     return (
         <>
             <Navbar />
@@ -68,11 +69,13 @@ export default function ActivitiesView() {
                                 </p>
                                 <hr class="bg-gray mt-5"></hr>
                                 <div class="field is-flex is-justify-content-center">
-                                    <a href='/event' class="control">
-                                        <button class="button blue">
+                                    <p class="control">
+                                        <button 
+                                        onClick={()=>setShowModal(!showModal)}
+                                         class="button blue">
                                             Ver más
                                         </button>
-                                    </a>
+                                    </p>
                                 </div>
                             </div>
 
@@ -236,7 +239,13 @@ export default function ActivitiesView() {
                 </section>
 
             </main>
-            {/* <img src={Logo} alt="" /> */}
+        
+           
+            
+            <Modal showModal={showModal} setShowModal={setShowModal}/> 
+            
+        
+        
         </>
     )
 }

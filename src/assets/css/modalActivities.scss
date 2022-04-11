@@ -66,7 +66,7 @@
 
 .modal-background {
 
-    background-color: transparent;
+    background-color: var(--blue);
 
 }
 
@@ -75,5 +75,5 @@
 }
 .modal-close{
 
-    background-color: rgba(10,10,10,.2);
+    background-color: var(--blue);
 }
